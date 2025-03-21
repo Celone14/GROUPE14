@@ -40,47 +40,52 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(195, 126);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(46, 178);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 13);
+            this.label1.Size = new System.Drawing.Size(56, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Matiere";
             // 
             // txtMatiere
             // 
-            this.txtMatiere.Location = new System.Drawing.Point(173, 178);
+            this.txtMatiere.Location = new System.Drawing.Point(129, 177);
             this.txtMatiere.Name = "txtMatiere";
-            this.txtMatiere.Size = new System.Drawing.Size(100, 20);
+            this.txtMatiere.Size = new System.Drawing.Size(254, 20);
             this.txtMatiere.TabIndex = 1;
+            this.txtMatiere.TextChanged += new System.EventHandler(this.txtMatiere_TextChanged);
             // 
             // btnAjouter
             // 
-            this.btnAjouter.Location = new System.Drawing.Point(60, 282);
+            this.btnAjouter.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnAjouter.Location = new System.Drawing.Point(50, 252);
             this.btnAjouter.Name = "btnAjouter";
             this.btnAjouter.Size = new System.Drawing.Size(75, 23);
             this.btnAjouter.TabIndex = 2;
             this.btnAjouter.Text = "Ajouter";
-            this.btnAjouter.UseVisualStyleBackColor = true;
+            this.btnAjouter.UseVisualStyleBackColor = false;
             this.btnAjouter.Click += new System.EventHandler(this.btnAjouter_Click);
             // 
             // btnModifier
             // 
-            this.btnModifier.Location = new System.Drawing.Point(198, 282);
+            this.btnModifier.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnModifier.Location = new System.Drawing.Point(183, 252);
             this.btnModifier.Name = "btnModifier";
             this.btnModifier.Size = new System.Drawing.Size(75, 23);
             this.btnModifier.TabIndex = 3;
             this.btnModifier.Text = "Modifier";
-            this.btnModifier.UseVisualStyleBackColor = true;
+            this.btnModifier.UseVisualStyleBackColor = false;
             this.btnModifier.Click += new System.EventHandler(this.btnModifier_Click);
             // 
             // btnSupprimer
             // 
-            this.btnSupprimer.Location = new System.Drawing.Point(348, 282);
+            this.btnSupprimer.BackColor = System.Drawing.SystemColors.Desktop;
+            this.btnSupprimer.Location = new System.Drawing.Point(308, 252);
             this.btnSupprimer.Name = "btnSupprimer";
             this.btnSupprimer.Size = new System.Drawing.Size(75, 23);
             this.btnSupprimer.TabIndex = 4;
             this.btnSupprimer.Text = "Supprimer";
-            this.btnSupprimer.UseVisualStyleBackColor = true;
+            this.btnSupprimer.UseVisualStyleBackColor = false;
             this.btnSupprimer.Click += new System.EventHandler(this.btnSupprimer_Click);
             // 
             // tableMatiere
@@ -88,10 +93,10 @@
             this.tableMatiere.AllowUserToAddRows = false;
             this.tableMatiere.AllowUserToDeleteRows = false;
             this.tableMatiere.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tableMatiere.Location = new System.Drawing.Point(465, 86);
+            this.tableMatiere.Location = new System.Drawing.Point(451, 86);
             this.tableMatiere.Name = "tableMatiere";
             this.tableMatiere.ReadOnly = true;
-            this.tableMatiere.Size = new System.Drawing.Size(269, 219);
+            this.tableMatiere.Size = new System.Drawing.Size(427, 279);
             this.tableMatiere.TabIndex = 5;
             // 
             // FormMatiere

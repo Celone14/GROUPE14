@@ -44,25 +44,27 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(89, 84);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(23, 75);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 13);
+            this.label1.Size = new System.Drawing.Size(58, 19);
             this.label1.TabIndex = 0;
-            this.label1.Text = "L\'Etudiant";
+            this.label1.Text = "Etudiant";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(307, 84);
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(24, 145);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 13);
+            this.label2.Size = new System.Drawing.Size(56, 19);
             this.label2.TabIndex = 1;
             this.label2.Text = "Matiere";
             // 
             // cmbEtudiant
             // 
             this.cmbEtudiant.FormattingEnabled = true;
-            this.cmbEtudiant.Location = new System.Drawing.Point(58, 145);
+            this.cmbEtudiant.Location = new System.Drawing.Point(103, 76);
             this.cmbEtudiant.Name = "cmbEtudiant";
             this.cmbEtudiant.Size = new System.Drawing.Size(121, 21);
             this.cmbEtudiant.TabIndex = 2;
@@ -70,7 +72,7 @@
             // cmbMatiere
             // 
             this.cmbMatiere.FormattingEnabled = true;
-            this.cmbMatiere.Location = new System.Drawing.Point(271, 145);
+            this.cmbMatiere.Location = new System.Drawing.Point(103, 142);
             this.cmbMatiere.Name = "cmbMatiere";
             this.cmbMatiere.Size = new System.Drawing.Size(121, 21);
             this.cmbMatiere.TabIndex = 3;
@@ -78,27 +80,29 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(113, 219);
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(24, 219);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(30, 13);
+            this.label3.Size = new System.Drawing.Size(40, 19);
             this.label3.TabIndex = 4;
             this.label3.Text = "Note";
             // 
             // txtNote
             // 
-            this.txtNote.Location = new System.Drawing.Point(74, 259);
+            this.txtNote.Location = new System.Drawing.Point(103, 219);
             this.txtNote.Name = "txtNote";
-            this.txtNote.Size = new System.Drawing.Size(100, 20);
+            this.txtNote.Size = new System.Drawing.Size(121, 20);
             this.txtNote.TabIndex = 5;
             // 
             // btnAjouter
             // 
-            this.btnAjouter.Location = new System.Drawing.Point(58, 317);
+            this.btnAjouter.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnAjouter.Location = new System.Drawing.Point(27, 362);
             this.btnAjouter.Name = "btnAjouter";
-            this.btnAjouter.Size = new System.Drawing.Size(75, 23);
+            this.btnAjouter.Size = new System.Drawing.Size(197, 33);
             this.btnAjouter.TabIndex = 6;
             this.btnAjouter.Text = "Ajouter";
-            this.btnAjouter.UseVisualStyleBackColor = true;
+            this.btnAjouter.UseVisualStyleBackColor = false;
             this.btnAjouter.Click += new System.EventHandler(this.btnAjouter_Click);
             // 
             // tablebulletin
@@ -106,26 +110,27 @@
             this.tablebulletin.AllowUserToAddRows = false;
             this.tablebulletin.AllowUserToDeleteRows = false;
             this.tablebulletin.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tablebulletin.Location = new System.Drawing.Point(412, 84);
+            this.tablebulletin.Location = new System.Drawing.Point(357, 84);
             this.tablebulletin.Name = "tablebulletin";
             this.tablebulletin.ReadOnly = true;
-            this.tablebulletin.Size = new System.Drawing.Size(341, 236);
+            this.tablebulletin.Size = new System.Drawing.Size(396, 311);
             this.tablebulletin.TabIndex = 7;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(307, 219);
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(24, 300);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 13);
+            this.label4.Size = new System.Drawing.Size(66, 19);
             this.label4.TabIndex = 8;
             this.label4.Text = "Moyenne";
             // 
             // txtMoyenne
             // 
-            this.txtMoyenne.Location = new System.Drawing.Point(271, 259);
+            this.txtMoyenne.Location = new System.Drawing.Point(103, 300);
             this.txtMoyenne.Name = "txtMoyenne";
-            this.txtMoyenne.Size = new System.Drawing.Size(100, 20);
+            this.txtMoyenne.Size = new System.Drawing.Size(121, 20);
             this.txtMoyenne.TabIndex = 9;
             // 
             // FormNotes

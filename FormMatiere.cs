@@ -124,5 +124,9 @@ namespace GestionSysthemeEtudiant
             }
         }
 
+        private void txtMatiere_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
